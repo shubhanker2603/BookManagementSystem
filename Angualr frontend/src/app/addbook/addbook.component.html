@@ -1,0 +1,35 @@
+<!-- <app-header></app-header> -->
+
+<div class="center-container">
+    <form [formGroup]="bookForm" (ngSubmit)="onSubmit()">
+      <mat-form-field class="feild">
+        <input matInput placeholder="Name" formControlName="name">
+      </mat-form-field>
+      <br>
+      <mat-form-field class="feild">
+        <input matInput type="number" placeholder="Rating" formControlName="rating">
+      </mat-form-field>
+      <br>
+      <mat-form-field class="feild">
+        <input matInput placeholder="Author" formControlName="author">
+      </mat-form-field>
+      <br>
+      <mat-form-field class="feild">
+        <input matInput placeholder="Genre" formControlName="genre">
+      </mat-form-field>
+      <br>
+      <mat-form-field class="feild">
+        <input matInput placeholder="Book Available" formControlName="bookAvailable">
+      </mat-form-field>
+      <br>
+      <mat-form-field class="feild">
+        <textarea matInput placeholder="Description" formControlName="description"></textarea>
+      </mat-form-field>
+      <br>
+      <mat-form-field class="feild">
+        <input matInput placeholder="Lenter" formControlName="lenter" readonly>
+      </mat-form-field>
+      <br>
+      <button class="feild" mat-raised-button color="primary" type="submit">Submit</button>
+    </form>
+  </div>

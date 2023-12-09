@@ -1,0 +1,23 @@
+<div class="dialog" style="background: url('https://img.freepik.com/free-vector/blank-book-cover-white-vector-illustration_1284-41903.jpg?w=360&t=st=1701891352~exp=1701891952~hmac=cc7b66c1db72ac2f91f5f34d5ac604f1ddc881d4aac377351e310a0e3498fe8b') center/cover no-repeat; opacity: 0.8; position: relative; padding: 20px; background-size: 400px 550px;">
+<h1 mat-dialog-title class="bookname">{{bookDetails.name}}</h1>
+<h4 mat-dialog-subtitle style="padding: 10px;">{{bookDetails.author}}</h4>
+<p style="padding: 10px;">
+    <span *ngFor="let starIcon of getStarIcons(bookDetails.rating)">
+      <mat-icon style="color: gold;">star</mat-icon>
+    </span>
+  </p>
+<h4 style="padding: 10px;"><b>{{bookDetails.genre}}</b></h4>  
+<div mat-dialog-content style="font-weight: bold; color: black;">{{bookDetails.description}}</div>
+<div class="flex-container">
+<div mat-dialog-content>Issued By - <b style="color: blue;">{{bookDetails.lenter}}</b></div>
+<div class="star-container">
+  <p style="padding: 10px;">Please Provide us a Review - </p>
+  <div *ngFor="let icon of getStar(); let i = index">
+    <mat-icon (click)="setRating(i + 1)" [style.color]="i < rating ? 'gold' : 'gray'">star</mat-icon>
+  </div>
+</div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close (click)="Confirm()">Borrow</button>
+</div>
+</div>

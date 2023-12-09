@@ -1,0 +1,17 @@
+.container{
+    border: solid 3px burlywood;
+    background-color: rgba(222, 184, 135, 0.7);
+    margin: 20px;
+}
+
+.loginpage{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    border-radius: 5px;
+    background-image: url('https://img.freepik.com/free-vector/beautiful-book-club-pattern-illustration_23-2149330102.jpg?w=740&t=st=1701886941~exp=1701887541~hmac=8b72b94c661047b6563232ea92a8a1f47b027d2a8cf1953652fc4933fb7848f1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}

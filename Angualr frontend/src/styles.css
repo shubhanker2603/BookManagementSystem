@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+.toast-top-center {
+    top: 20px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  
+  .toast {
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    padding: 12px 20px;
+    width: 30px;
+  }
+  
+  .toast-success {
+    background-color: #abb3ad;
+    padding: 3px;
+    font-weight: bold;
+    border: greenyellow 3px solid;
+    color: greenyellow;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .toast-error {
+    background-color: #dc3545;
+  }
+  
+  .toast-info {
+    background-color: #535855;
+    padding: 3px;
+    font-weight: bold;
+    color: rgb(241, 241, 241);
+    height: 60px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .toast-warning {
+    background-color: #df1321;
+    padding: 3px;
+    font-weight: bold;
+    color: rgb(241, 241, 241);
+    height: 60px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .toast-close-button {
+    color: #fff;
+  }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

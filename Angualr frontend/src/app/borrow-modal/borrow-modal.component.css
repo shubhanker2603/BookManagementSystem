@@ -1,0 +1,21 @@
+.dialog{
+    padding: 10px;
+    background-color: bisque;
+    border: solid 5px;
+    border-radius: 5px;
+}
+
+.bookname{
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.star-container {
+    display: flex;
+    gap: 5px;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }

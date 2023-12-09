@@ -1,0 +1,73 @@
+<mat-sidenav-container class="sidenav-container">
+<p>
+    <mat-toolbar class="custom-toolbar" style="background-color: burlywood;">
+      <button mat-icon-button class="example-icon" aria-label="Toggle menu" (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span style="font-family: 'Dancing Script', cursive; font-size: x-large;">Book World Studio</span>
+      <span class="example-spacer"></span>
+      <ng-container *ngIf="isLoggedIn; else showLogin">
+        <!-- Show profile avatar -->
+        <button mat-icon-button class="example-icon" aria-label="Profile" [matTooltip]="email" [matBadge]="badgeContent" matBadgePosition="below after" matBadgeSize="small" class="profile-icon" (click)="openBottomSheet()">
+          <!-- Replace 'avatar' with the appropriate icon name for a profile avatar -->
+          <mat-icon >person</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon" aria-label="Logout" (click)="logout()">
+          <mat-icon>logout</mat-icon>
+        </button>
+      </ng-container>
+  
+      <ng-template #showLogin>
+        <!-- Show login button -->
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Login" routerLink="/login">
+          <mat-icon>login</mat-icon>
+        </button>
+      </ng-template>
+      
+    </mat-toolbar>
+</p>
+    <mat-sidenav #sidenav mode="side" class="example-sidenav" style="background-color: wheat">
+      <p class="salutation">Hi,
+        <br><a class="name">{{email}}</a><mat-icon>smile</mat-icon>
+      </p>
+    </mat-sidenav>
+   </mat-sidenav-container>
+
+   <mat-tab-group dynamicHeight style="background-color: blanchedalmond;">
+    <mat-tab >
+      <ng-template mat-tab-label>
+        <a class="font" routerLink="" style="text-decoration: none; color: rgb(165, 100, 16);">Home</a>
+      </ng-template>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <a class="font" routerLink="/booklist" style="text-decoration: none;color: rgb(165, 100, 16);">Books List</a>
+      </ng-template>
+        <!-- <app-bookslist></app-bookslist> -->
+    </mat-tab>
+    <mat-tab *ngIf="isLoggedIn" >
+      <!-- <app-addbook></app-addbook> -->
+      <ng-template mat-tab-label>
+        <a class="font" routerLink="/addbook" style="text-decoration: none;color: rgb(165, 100, 16);">Add New Book</a>
+      </ng-template>
+    </mat-tab>
+    <mat-tab *ngIf="isLoggedIn" >
+      <!-- <app-addbook></app-addbook> -->
+      <ng-template mat-tab-label>
+        <a class="font" routerLink="/borrowed" style="text-decoration: none;color: rgb(165, 100, 16);">Borrowed Books</a>
+      </ng-template>
+    </mat-tab>
+    <mat-tab *ngIf="isLoggedIn" >
+      <!-- <app-addbook></app-addbook> -->
+      <ng-template mat-tab-label>
+        <a class="font" routerLink="/lent" style="text-decoration: none;color: rgb(165, 100, 16);">Lent Books</a>
+      </ng-template>
+    </mat-tab>
+    <mat-tab>
+      <!-- <app-addbook></app-addbook> -->
+      <ng-template mat-tab-label>
+        <a class="font" href="https://www.nagarro.com/en/contact-us" style="text-decoration: none;color: rgb(165, 100, 16); ">Contact</a>
+      </ng-template>
+    </mat-tab>
+  </mat-tab-group>
+  

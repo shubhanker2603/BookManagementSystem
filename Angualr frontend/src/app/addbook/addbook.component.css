@@ -1,0 +1,14 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    background-image: url('https://img.freepik.com/free-photo/3d-render-wooden-table-looking-out-blurred-background-with-bookcase_1048-6021.jpg?w=740&t=st=1701889589~exp=1701890189~hmac=2a9630ebf7f66231fe59b33d8e68e70877f44b4d4893f4a8198dc680d0ec1af1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
+
+.feild{
+   width: 70rem;
+  }

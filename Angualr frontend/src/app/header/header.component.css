@@ -1,0 +1,39 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .custom-toolbar {
+    height: 74px; /* Adjust the height as needed */
+  }
+  
+  .profile-icon {
+    font-size: 24px; /* Adjust the font size of the icon */
+    padding: 10px; /* Adjust the padding to control the badge size */
+    margin-right: 10px;
+  }
+
+  .name{
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .salutation{
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  .fixed-tabs {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* You can adjust the z-index based on your layout */
+  }
+  .font{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
