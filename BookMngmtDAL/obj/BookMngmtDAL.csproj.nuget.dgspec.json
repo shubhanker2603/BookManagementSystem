@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Dotnet Mini Assignment-2\\BookMngmtDAL\\BookMngmtDAL.csproj": {}
+    "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Dotnet Mini Assignment-2\\BookMngmtDAL\\BookMngmtDAL.csproj": {
+    "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Dotnet Mini Assignment-2\\BookMngmtDAL\\BookMngmtDAL.csproj",
+        "projectUniqueName": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj",
         "projectName": "BookMngmtDAL",
-        "projectPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Dotnet Mini Assignment-2\\BookMngmtDAL\\BookMngmtDAL.csproj",
-        "packagesPath": "C:\\Users\\shubhankersinghal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Dotnet Mini Assignment-2\\BookMngmtDAL\\obj\\",
+        "projectPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj",
+        "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtDAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shubhankersinghal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -71,6 +71,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.32, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.22.0, )"
             }
           },
           "imports": [
@@ -79,7 +83,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -88,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

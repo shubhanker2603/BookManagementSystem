@@ -28,3 +28,19 @@ C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Dotnet Mini Assignment-2\B
 C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Dotnet Mini Assignment-2\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.dll
 C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Dotnet Mini Assignment-2\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.pdb
 C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Dotnet Mini Assignment-2\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.genruntimeconfig.cache
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtBLL.deps.json
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtBLL.runtimeconfig.json
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtBLL.runtimeconfig.dev.json
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtBLL.dll
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtBLL.pdb
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtDAL.dll
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtDAL.pdb
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.csproj.AssemblyReference.cache
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.AssemblyInfoInputs.cache
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.AssemblyInfo.cs
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.csproj.CoreCompileInputs.cache
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.csproj.CopyComplete
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.dll
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.pdb
+C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.genruntimeconfig.cache
