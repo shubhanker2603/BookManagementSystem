@@ -14,6 +14,8 @@ namespace BookManagementApp.Controllers
     [Route("[controller]")]
     public class BookMngmtController : Controller
     {
+        // using mapper for mapping different data model with same attribute to maintain loose binding
+
         private readonly BookMngmtBLL.BooksRepo.IBooksBLLOPs _book = null;
         private readonly BookMngmtBLL.AccountRepo.IAccountOPs _acc = null;
         private Mapper _MapperEvent;
@@ -29,6 +31,8 @@ namespace BookManagementApp.Controllers
            
         }
 
+        // API for getting list of books
+
         [HttpGet]
         [Route("books")]
 
@@ -39,6 +43,8 @@ namespace BookManagementApp.Controllers
 
             return Ok(eventModel);
         }
+
+        // API for getting book by Id
 
         [HttpGet]
         [Route("books/{id}")]
@@ -53,6 +59,8 @@ namespace BookManagementApp.Controllers
             return Ok(eventModel);
         }
 
+        //API for adding new book to database
+
         [HttpPost]
         [Route("books/addbook")]
         [Authorize]
@@ -64,7 +72,7 @@ namespace BookManagementApp.Controllers
 
         }
 
-        // just for demo purpse 
+        // API for implementing Borrow Book Functionality
 
         [HttpPut]
         [Route("books/borrow/{id}/{lent_id}/{rent_id}/{rating}")]
