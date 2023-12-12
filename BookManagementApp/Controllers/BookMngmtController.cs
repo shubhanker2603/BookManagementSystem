@@ -64,6 +64,7 @@ namespace BookManagementApp.Controllers
 
         }
 
+        // just for demo purpse 
 
         [HttpPut]
         [Route("books/borrow/{id}/{lent_id}/{rent_id}/{rating}")]
