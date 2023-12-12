@@ -87,5 +87,16 @@ namespace BookManagementApp.Controllers
             return Ok();
 
         }
+
+        // Api for implementation of return Book functionality
+
+        [HttpPut]
+        [Route("books/returnBook/{id}")]
+        public IActionResult ReturnBook(int id)
+        {
+            _book.ReturnFnc(id);
+            
+            return Ok();
+        }
     }
 }

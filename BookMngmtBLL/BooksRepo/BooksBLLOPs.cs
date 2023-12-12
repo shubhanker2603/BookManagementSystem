@@ -89,5 +89,37 @@ namespace BookMngmtBLL.BooksRepo
 
         }
 
+        public void ReturnFnc(int? id)
+        {
+            if(id == null)
+            {
+                throw new NotImplementedException();
+            }
+
+            BookModel BorrowedBook = GetBookById(id);
+
+            BorrowedBook.BookAvailable = "yes";
+            BorrowedBook.Borrower = "";
+
+            BookEntity ReturnedBook = _MapperEvent.Map<BookModel, BookEntity>(BorrowedBook);
+
+            try
+            {
+                _DAL.UpdateBook(ReturnedBook);
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_DAL.BookModelExists((int)id))
+                {
+                    throw new NotImplementedException();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+        }
+
     }
 }

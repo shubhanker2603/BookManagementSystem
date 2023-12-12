@@ -9,5 +9,6 @@ namespace BookMngmtBLL.BooksRepo
         List<BookModel> GetAllBooks();
         BookModel GetBookById(int? id);
         public void EditBook(int id, string Borrower, int rating);
+        public void ReturnFnc(int? id);
     }
 }
