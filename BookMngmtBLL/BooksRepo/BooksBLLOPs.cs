@@ -23,6 +23,8 @@ namespace BookMngmtBLL.BooksRepo
 
         }
 
+        // Business Logic for Getting list of books
+
         public List<BookModel> GetAllBooks()
         {
             List<BookEntity> EventFromDB = _DAL.GetAllBooks();
@@ -30,6 +32,8 @@ namespace BookMngmtBLL.BooksRepo
 
             return eventModel;
         }
+
+        // Business Logic for Retrieving Book by id
 
         public BookModel GetBookById(int? id)
         {
@@ -51,12 +55,14 @@ namespace BookMngmtBLL.BooksRepo
             return eventModel;
         }
 
+        //Business logic Adding new Book to database 
         public void AddBook(BookModel eventModel)
         {
             BookEntity eventEntity = _MapperEvent.Map<BookModel, BookEntity>(eventModel);
             _DAL.PostItem(eventEntity);
         }
 
+        // Similarly it is for Edit specific details of a Book (Borrowed Book)
         public void EditBook(int id , string Borrower, int rating)
         {
            BookModel BorrowedBook = GetBookById(id);
@@ -88,6 +94,8 @@ namespace BookMngmtBLL.BooksRepo
 
 
         }
+
+        // Similarly it is for Edit specific details of a Book (Returning Book)
 
         public void ReturnFnc(int? id)
         {
