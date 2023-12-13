@@ -15,6 +15,7 @@ namespace BookMngmtDAL.Backend_Data
         }
 
         public DbSet<BookEntity> Books { get; set; }
+        public DbSet<CommentEntity> Comments { get; set; }
 
     }
 }
