@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BookMngmtBLL.BLLModels;
+using BookMngmtDAL.Entities;
 using DomainModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -18,17 +19,24 @@ namespace BookManagementApp.Controllers
 
         private readonly BookMngmtBLL.BooksRepo.IBooksBLLOPs _book = null;
         private readonly BookMngmtBLL.AccountRepo.IAccountOPs _acc = null;
+        private readonly BookMngmtBLL.CommentRepo.ICommentBLLops _cmnt = null;
         private Mapper _MapperEvent;
+        private Mapper _MapperEvent2;
 
-        public BookMngmtController(BookMngmtBLL.BooksRepo.IBooksBLLOPs book, BookMngmtBLL.AccountRepo.IAccountOPs acc)
+        public BookMngmtController(BookMngmtBLL.BooksRepo.IBooksBLLOPs book, BookMngmtBLL.AccountRepo.IAccountOPs acc, BookMngmtBLL.CommentRepo.ICommentBLLops cmnt)
         {
             _book = book;
             _acc = acc;
+            _cmnt = cmnt;
 
             var _configEvent = new MapperConfiguration(cfg => cfg.CreateMap<BookModel, BookDomain>().ReverseMap());
            
             _MapperEvent = new Mapper(_configEvent);
-           
+
+            var _configEvent2 = new MapperConfiguration(cfg => cfg.CreateMap<CommentModel, CommentsDomain>().ReverseMap());
+
+            _MapperEvent2 = new Mapper(_configEvent2);
+
         }
 
         // API for getting list of books
@@ -97,6 +105,31 @@ namespace BookManagementApp.Controllers
             _book.ReturnFnc(id);
             
             return Ok();
+        }
+
+        // API for adding reviews to book
+
+        [HttpPost]
+        [Route("books/addreview")]
+        public IActionResult ReviewPost([FromBody] CommentsDomain cmnt)
+        {
+            CommentModel BookReview = _MapperEvent2.Map<CommentsDomain, CommentModel>(cmnt);
+            _cmnt.AddCmnt(BookReview);
+            return Ok();
+
+        }
+
+        //API for getting list of reviews on a book
+
+        [HttpGet]
+        [Route("books/reviewList")]
+        public IActionResult ReviewsList(int id)
+        {
+            List<CommentModel> AllCmnts = _cmnt.GetAllCmnts(id);
+            List<CommentsDomain> cmnts = _MapperEvent.Map<List<CommentModel>, List<CommentsDomain>>(AllCmnts);
+
+            return Ok(cmnts);
+
         }
     }
 }
