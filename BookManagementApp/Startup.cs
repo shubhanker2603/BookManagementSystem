@@ -1,7 +1,9 @@
 using BookMngmtBLL.AccountRepo;
 using BookMngmtBLL.BooksRepo;
+using BookMngmtBLL.CommentRepo;
 using BookMngmtDAL.Backend_Data;
 using BookMngmtDAL.BookOperations;
+using BookMngmtDAL.CommentsOperations;
 using BookMngmtDAL.Entities;
 using BookMngmtDAL.UnitOfWork;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -44,6 +46,10 @@ namespace BookManagementApp
             services.AddScoped<IBooksBLLOPs, BooksBLLOPs>();
 
             services.AddScoped<IBooksOP, BooksOP>();
+
+            services.AddScoped<ICommentBLLops, CommentBLLops>();
+
+            services.AddScoped<ICommentsOPs, CommentsOPs>();
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             

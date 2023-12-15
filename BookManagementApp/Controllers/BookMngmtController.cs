@@ -126,7 +126,7 @@ namespace BookManagementApp.Controllers
         public IActionResult ReviewsList(int id)
         {
             List<CommentModel> AllCmnts = _cmnt.GetAllCmnts(id);
-            List<CommentsDomain> cmnts = _MapperEvent.Map<List<CommentModel>, List<CommentsDomain>>(AllCmnts);
+            List<CommentsDomain> cmnts = _MapperEvent2.Map<List<CommentModel>, List<CommentsDomain>>(AllCmnts);
 
             return Ok(cmnts);
 

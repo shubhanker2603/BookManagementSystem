@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookManagementApp\\BookManagementApp.csproj": {}
+    "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookManagementApp\\BookManagementApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookManagementApp\\BookManagementApp.csproj": {
+    "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookManagementApp\\BookManagementApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookManagementApp\\BookManagementApp.csproj",
+        "projectUniqueName": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookManagementApp\\BookManagementApp.csproj",
         "projectName": "BookManagementApp",
-        "projectPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookManagementApp\\BookManagementApp.csproj",
-        "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookManagementApp\\obj\\",
+        "projectPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookManagementApp\\BookManagementApp.csproj",
+        "packagesPath": "C:\\Users\\shubhankersinghal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookManagementApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shubhankersinghal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,14 +32,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtBLL\\BookMngmtBLL.csproj": {
-                "projectPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtBLL\\BookMngmtBLL.csproj"
+              "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtBLL\\BookMngmtBLL.csproj": {
+                "projectPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtBLL\\BookMngmtBLL.csproj"
               },
-              "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj": {
-                "projectPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj"
+              "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj": {
+                "projectPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj"
               },
-              "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\DomainModels\\DomainModels.csproj": {
-                "projectPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\DomainModels\\DomainModels.csproj"
+              "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\DomainModels\\DomainModels.csproj": {
+                "projectPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\DomainModels\\DomainModels.csproj"
               }
             }
           }
@@ -83,8 +83,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -96,24 +95,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtBLL\\BookMngmtBLL.csproj": {
+    "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtBLL\\BookMngmtBLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtBLL\\BookMngmtBLL.csproj",
+        "projectUniqueName": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtBLL\\BookMngmtBLL.csproj",
         "projectName": "BookMngmtBLL",
-        "projectPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtBLL\\BookMngmtBLL.csproj",
-        "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtBLL\\obj\\",
+        "projectPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtBLL\\BookMngmtBLL.csproj",
+        "packagesPath": "C:\\Users\\shubhankersinghal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtBLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shubhankersinghal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -128,8 +127,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj": {
-                "projectPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj"
+              "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj": {
+                "projectPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj"
               }
             }
           }
@@ -187,8 +186,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -197,24 +195,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj": {
+    "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj",
+        "projectUniqueName": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj",
         "projectName": "BookMngmtDAL",
-        "projectPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj",
-        "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\BookMngmtDAL\\obj\\",
+        "projectPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtDAL\\BookMngmtDAL.csproj",
+        "packagesPath": "C:\\Users\\shubhankersinghal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\BookMngmtDAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shubhankersinghal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -280,8 +278,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -290,24 +287,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\DomainModels\\DomainModels.csproj": {
+    "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\DomainModels\\DomainModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\DomainModels\\DomainModels.csproj",
+        "projectUniqueName": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\DomainModels\\DomainModels.csproj",
         "projectName": "DomainModels",
-        "projectPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\DomainModels\\DomainModels.csproj",
-        "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\DomainModels\\obj\\",
+        "projectPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\DomainModels\\DomainModels.csproj",
+        "packagesPath": "C:\\Users\\shubhankersinghal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\DomainModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shubhankersinghal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -339,8 +336,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -349,7 +345,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
         }
       }
     }

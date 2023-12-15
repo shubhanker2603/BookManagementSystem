@@ -17,3 +17,12 @@ C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\DomainModels\obj\D
 C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.csproj.CoreCompileInputs.cache
 C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.dll
 C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.pdb
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\DomainModels\bin\Debug\netcoreapp3.1\DomainModels.deps.json
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\DomainModels\bin\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\DomainModels\bin\Debug\netcoreapp3.1\DomainModels.pdb
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.csproj.AssemblyReference.cache
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.AssemblyInfoInputs.cache
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.AssemblyInfo.cs
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.pdb

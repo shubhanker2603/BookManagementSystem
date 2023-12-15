@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\shubh\\.nuget\\packages\\": {},
+    "C:\\Users\\shubhankersinghal\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\DomainModels\\DomainModels.csproj",
+      "projectUniqueName": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\DomainModels\\DomainModels.csproj",
       "projectName": "DomainModels",
-      "projectPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\DomainModels\\DomainModels.csproj",
-      "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shubh\\OneDrive\\Documents\\GitHub\\BookManagementSystem\\DomainModels\\obj\\",
+      "projectPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\DomainModels\\DomainModels.csproj",
+      "packagesPath": "C:\\Users\\shubhankersinghal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shubhankersinghal\\OneDrive - Nagarro\\Desktop\\Git Hub Repo\\BookManagementSystem\\DomainModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shubhankersinghal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -56,8 +56,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -66,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
       }
     }
   }

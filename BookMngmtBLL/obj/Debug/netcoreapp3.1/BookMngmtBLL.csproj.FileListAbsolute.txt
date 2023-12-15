@@ -44,3 +44,18 @@ C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\obj\D
 C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.dll
 C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.pdb
 C:\Users\shubh\OneDrive\Documents\GitHub\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.genruntimeconfig.cache
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtBLL.deps.json
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtBLL.runtimeconfig.json
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtBLL.runtimeconfig.dev.json
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtBLL.dll
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtBLL.pdb
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtDAL.dll
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\bin\Debug\netcoreapp3.1\BookMngmtDAL.pdb
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.csproj.AssemblyReference.cache
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.AssemblyInfoInputs.cache
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.AssemblyInfo.cs
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.csproj.CoreCompileInputs.cache
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.csproj.CopyComplete
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.dll
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.pdb
+C:\Users\shubhankersinghal\OneDrive - Nagarro\Desktop\Git Hub Repo\BookManagementSystem\BookMngmtBLL\obj\Debug\netcoreapp3.1\BookMngmtBLL.genruntimeconfig.cache
